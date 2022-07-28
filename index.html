@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Fake</title>
+
+
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+
+  <link rel="stylesheet" href="/styles/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="/styles/owl/owl.theme.default.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h2 class="logo">NETFLIX</h2>
+        <nav class="nav">
+          <a href="">Início</a>
+          <a href="">Séries</a>
+          <a href="">Filmes</a>
+          <a href="">Documentários</a>
+        </nav>
+    </div>
+  </header>
+
+ <main>
+   <div class="filme-principal" id="filme">
+     <div class="container">
+       <h3 class="titulo-filme" id="title">The Batman</h3>
+         <p class="description" id="description">Após dois anos espreitando as ruas como Batman e aterrorizando o mundo do crime, Bruce Wayne se encontra nas profundezas mais 
+         sombrias de Gotham City. Com pouquíssimos aliados confiáveis dentro da rede corrupta de autoridades e grandes figuras da cidade,o vigilante
+         solitário se estabeleceu como a personificação da vingança para a população.Agora, quando um assassino tem a elite de Gotham vítima 
+         de uma série de tramas sadistas, a trilha de pistas crípticas leva o Maior Detetive do Mundo em uma investigação no submundo, onde encontra 
+         Carmine Falcone, Selina Kyle, vulga Mulher-Gato, Oswald Cobblepot, vulgo Pinguim, e Edward Nashton, vulgo Charada. Conforme as evidências 
+         atingem um nível pessoal e a dimensão dos planos do responsável se torna mais clara, o Batman deve forjar novas alianças, desmascarar o 
+         culpado e trazer justiça ao abuso de poder e corrupção que a tanto tempo atormenta Gotham City.</p>
+         <div class="botoes">
+           <button class="botao" role="button">
+             <i class="fa-solid fa-play"></i>
+             Assistir
+            </button>
+            <button class="botao" role="button">
+              <i class="fa-solid fa-circle-info"></i>
+              Mais Informacoes
+            </button>
+          </div>
+      </div>
+   </div>
+  </main>
+
+  <div class="carrossel">
+    <div class="owl-carousel owl-theme" id="carrossel">
+      <div class="item">
+        <img class="box-filme" src="resources/img/boyka.jpg" alt="" onclick="trocaFilme(1)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="resources/img/lucifer.jpg" alt="" onclick="trocaFilme(2)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="resources/img/conduta.jpg" alt="" onclick="trocaFilme(3)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="resources/img/eradogelo.jpg" alt="" onclick="trocaFilme(4)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="resources/img/blitz.jpg" alt="" onclick="trocaFilme(5)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="resources/img/expresso.jpg" alt="" onclick="trocaFilme(6)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="resources/img/batman2.jpg" alt="" onclick="trocaFilme(7)">
+      </div>
+    </div>
+  </div>
+
+ <script src="https://kit.fontawesome.com/3edfc1b6ac.js" crossorigin="anonymous"></script>
+ <script src="/js/owl/jquery.min.js"></script>
+ <script src="/js/owl/owl.carousel.min.js"></script>
+ <script src="/js/owl/setup.js"></script>
+ <script src="/js/owl/filme.js"></script>
+
+</body>
+</html>
+
+

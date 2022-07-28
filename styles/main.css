@@ -1,0 +1,131 @@
+:root {
+  --vermelho:#e50914;
+  --preto:#141414
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preto);
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+
+
+
+.container {
+  margin-left: 20px;
+}
+
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-left: 20px; */
+}
+
+header .nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+}
+
+header .nav {
+  margin-right: 50px;
+}
+
+header .nav a:hover{
+  color: #fff;
+}
+
+header .logo{
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+  color: var(--vermelho);
+}
+
+
+/* Filme */
+
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../resources/img/batman.jpg');
+
+  min-height: 400px;
+  /* max-height: 100%; */
+  /* width: 100%; */
+  background-size: cover;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  transition: all 0.7s linear ;
+}
+
+
+
+.filme-principal .description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  /* width: 45%; */
+}
+
+
+.titulo-filme {
+  font-size: 65px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.filme-principal .container {
+  width: 70%;
+}
+
+/* Botao */
+
+.botao {
+  background-color: rgba(0, 0, 0, .50);
+  border: none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  /* margin-right: 5px; */
+  /* margin-left: 30px; */
+  
+
+  cursor: pointer;
+  transition: 0.25s linear all;
+  /* border-radius: 10px; */
+}
+
+.botao:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+/* carrossel */
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.carrossel{
+  margin-top: 10px;
+}
